@@ -1,11 +1,10 @@
-** Author: Roman Chuyan
-Udacity Course: Intermediate Javascript 
-Project: Dinosaurs
+## Project: Dinosaurs
+# Author: Roman Chuyan
+# Udacity Course: Intermediate Javascript 
 
-Dependency: 
+# Dependency: 
 -- requires HTML protocol in order for 'import' to work in app.js; using html package for Atom.
-
-Data: original 'dino.json' file converted to 'dinodata.js' and 'exports' the Dinos array.
+Data: Original 'dino.json' file converted to 'dinodata.js' and 'exports' the Dinos array.
 ** ----------- 
 
 
