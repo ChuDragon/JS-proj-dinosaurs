@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+  background: rgb(111, 208, 224);
+  background: linear-gradient(
+    0deg,
+    rgb(111, 208, 224) 0%,
+    rgb(171, 228, 167) 100%
+  );
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Frijole", cursive;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+@media (min-width: 650px) {
+  /*650px) { */
+  h1 {
+    font-size: 3em;
+  }
+}
+
+p {
+  font-weight: 100;
+}
+
+/* Grid Styles */
+#grid {
+  background: #fff url(images/tracks.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  margin: 2em; /*2em; */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 470px; /*added - was too large and not wrapping*/
+  background: #e1c59cf2;
+}
+
+/*.grid-item:nth-child(1) {
+  background: #e1c59cf2;
+}*/
+
+@media (min-width: 250px) {
+  width: calc(100% / 3);
+}
+
+.grid-item h3 {
+  font-size: 2em;
+  color: #6c4000;
+}
+
+.grid-item img {
+  max-width: 100%;
+  padding-bottom: 1em;
+}
+
+.grid-item p {
+  background: rgba(000, 000, 000, 0.3);
+  /*  position: relative; */
+  bottom: 0;
+  width: 100%;
+  padding: 0.8em 0.8em 1.8em;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Form Styles */
+.form-container {
+  background: #eee;
+  padding: 1.3em;
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form p {
+  margin-bottom: 0.3em;
+  font-size: 1.3em;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+
+input {
+  padding: 0.7em;
+  background: #fff;
+  border: 0;
+}
+
+.form-field__short {
+  width: 25%;
+  margin-right: 3%;
+  box-sizing: border-box;
+}
+
+.form-field__full {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+select {
+  display: block;
+}
+
+#btn {
+  display: inline-block;
+  background: #ccc;
+  padding: 0.8em;
+  margin: 1.2em auto;
+  transition: ease 0.3s all;
+}
+
+#btn:hover {
+  background: #777;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Footer */
+.fine-print {
+  display: block;
+  font-size: 0.7em;
+}
