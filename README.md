@@ -17,7 +17,7 @@ My work was mostly in JavaScript, as well as some html/css to create an interact
 HTML protocol needs to run in order for the app to work. 
 To do this, install a Live Server package/extension in your code editor. 
 Open the project folder in the editor and start the Live Server package/extension. Then, open the 'index.html' file in your browser. 
-The data is located in the `dinodata.js` file.
+The stored data is located in the `dinodata.js` file.
 
 ## Concepts Practiced
 
