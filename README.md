@@ -28,4 +28,4 @@ I create a class with a constructor function, and create the necessary objects w
 I add object methods using the `objName.prototype.` syntax.
 
 ### Interactivity, DOM Manipulation
-I create/remove elements with the methods on the `document` object and `.innerHTML` element property. 
+I create/remove DOM elements with the methods on the `document` object and `.innerHTML` element property. 
