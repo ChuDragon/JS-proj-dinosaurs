@@ -14,9 +14,10 @@ Udacity supplied us with starter code containing the basic html/css and the star
 My work was mostly in JavaScript, as well as some html/css to create an interactive, appealing UI.
 
 ## Setup/Dependencies
-HTML protocol needs to run in order for the app to work. 
-To do this, install a Live Server package/extension in your code editor. 
-Open the project folder in the editor and start the Live Server package/extension. Then, open the 'index.html' file in your browser. 
+The app needs to ruun on HTML protocol in order to work. 
+One way to do this is to install a Live Server package/extension in your code editor. 
+Then, open the project folder in the editor and start the Live Server package/extension. Start the app by opening the 'index.html' file in your browser. 
+
 The stored data is located in the `dinodata.js` file.
 
 ## Concepts Practiced
